@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: #f9fafa;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.header_menu-item1 a {
+    font-family: 'Revalia-Regular',  Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: #34547A;
+    margin-left: 150px;
+    margin-top: 30px;
+    text-decoration: inherit;
+} 
+
+.header_menu-item2 a {
+    font-family: 'Roboto-Regular', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 16px;
+    width: 84px;
+    height: 12px;
+    text-decoration: none;
+    color: #34547A;
+}
+
+.header_menu-item3 a {
+    font-family: 'Roboto-Regular', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    width: 100px;
+    height: 16px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header_menu-item4 a {
+    font-family: 'Roboto-Regular', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    width: 74px;
+    height: 16px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header_menu-item5 a {
+    font-family: 'Roboto-Regular', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    width: 86px;
+    height: 16px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header_menu-item6 a {
+    font-family: 'Roboto-Regular', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    width: 99px;
+    height: 16px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.container {
+    max-width: 3500px;
+    height: 700px;
+    margin: 0 auto;
+    background: #EEEFF1;
+}
+
+.hero {
+   display: flex; 
+   flex-wrap: wrap;
+}
+
+.hero-left {
+    flex: 1;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hero-right {
+    flex: 1;
+}
+
+.hero-right h1 {
+    font-family: 'Roboto-Regular', Arial, sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    width: 541px;
+    height: 45px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.hero-right p {
+    font-family: 'Roboto-Regular', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 60px;
+    max-width: 450px;
+}
+
+.hero-right a {
+    font-family: 'Roboto-Regular', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 15px 60px;
+    background: #34547A;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 225px;
+    height: 65px;
+}
+
+.main_container {
+    position: relative;
+    top: 50px;
+}
+    
+.hero_center h2 {
+    font-family: 'Roboto-Regular', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.hero_center p {
+    font-family: 'Roboto-Regular', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 16px;
+    text-align: center;
+    width: 300px;
+    justify-content: center;
+}
+
+.img_container {
+    background-color: rgb(68, 0, 255);
+}
+
+
+@font-face {
+    font-family: 'Revalia-Regular';
+    src:  url('../fonts/Revalia-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+@font-face {
+    font-family: 'GrenzeGotisch-Regular';
+    src: url('../fonts/GrenzeGotisch-Regular') format('woff2');
+    font-size: 16px;
+    font-weight: 500px;
+    font-style: normal;
+}
